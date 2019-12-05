@@ -1,0 +1,79 @@
+body {
+	font-family: 'Consolas', sans-serif;
+}
+
+footer, header{
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.links{
+    color: #7d97ad;
+}
+
+a{
+    text-decoration: none;
+    color: #2d3c49;
+}
+
+a:hover{ 
+    color: #02b3e4; 
+}
+
+figure{
+    width:260px;
+    height:173px;
+    overflow:hidden;
+}
+
+.logo, .name, .p1, .p2, .p3{
+    display: inline-block;
+}
+
+.logopic{
+    width: 150px;
+    height: 150px;
+}
+
+.projectpic2{
+    width: 333px;
+    height: 173px;
+}
+
+.projectpic3{
+    width: 370px;
+    height: 204px;
+}
+
+.mainpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.logo, .name{
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 500px) {
+    figure{
+        width:390px;
+        height:260px;
+        overflow:hidden;
+    }
+    .projectpic2{
+        width: 500px;
+        height: 260px;
+    }
+    .projectpic3{
+        width: 556px;
+        height: 306px;
+    }
+    .logopic{
+        width: 250px;
+        height: 250px;
+    }
+}
